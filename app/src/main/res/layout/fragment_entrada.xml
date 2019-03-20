@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmentos.EntradaFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/form_padding"
+        android:background="@color/colorSecondaryText">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:id="@+id/lnl_formEntrada"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:layout_marginHorizontal="30dp"
+                    android:paddingHorizontal="10dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="20dp">
+                        <TextView
+                            android:id="@+id/txv_FechaEntrada"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textSize="20dp" />
+                        <!-- The desired time zone's ID null
+                        to user the time zone specified by the user -->
+                        <TextClock
+                            android:id="@+id/txc_HoraEntrada"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="16dp"
+                            android:textSize="20dp" />
+                        <TextView
+                            android:id="@+id/txv_hrs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:text="hrs"
+                            android:textSize="20dp" />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/etx_Nombre"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/nombre_entrada"
+                        android:imeActionLabel="@string/action_sign_in_short"
+                        android:imeOptions="actionUnspecified"
+                        android:inputType="textCapSentences|textAutoCorrect"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textSize="20dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textColorHint="@color/colorPrimary"/>
+
+                    <EditText
+                        android:id="@+id/etx_EmpresaVisitante"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/empresa_visitante"
+                        android:imeActionLabel="@string/action_sign_in_short"
+                        android:imeOptions="actionUnspecified"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textSize="20dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textColorHint="@color/colorPrimary"/>
+
+                    <EditText
+                        android:id="@+id/etx_NombreAnfitrion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/nombre_anfrition"
+                        android:imeActionLabel="@string/action_sign_in_short"
+                        android:imeOptions="actionUnspecified"
+                        android:inputType="textCapSentences|textAutoCorrect"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textSize="20dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textColorHint="@color/colorPrimary"/>
+
+                    <EditText
+                        android:id="@+id/etx_Asunto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/nombre_asunto"
+                        android:imeActionLabel="@string/action_sign_in_short"
+                        android:imeOptions="actionUnspecified"
+                        android:inputType="textCapSentences|textAutoCorrect"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textSize="20dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textColorHint="@color/colorPrimary"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:weightSum="2"
+                    android:layout_marginHorizontal="40dp"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+                    <Button
+                        android:id="@+id/btn_BorrarDatos"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
+                        android:background="@color/colorSecondaryText"
+                        android:text="@string/content_borrardatos"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="15dp" />
+
+                    <Button
+                        android:id="@+id/btn_RegistrarDatos"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/colorPrimaryDark"
+                        android:text="@string/content_registrar"
+                        android:textColor="@color/colorSecondaryText"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

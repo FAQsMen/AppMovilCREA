@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmentos.InstruccionFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txv_agradecimiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="50dp"
+            android:textColor="@color/colorAccent"
+            android:text="Gracias por tu registro"/>
+
+        <TextView
+            android:id="@+id/txv_instruccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="40dp"
+            android:textColor="@color/colorAccent"
+            android:text="Ahora puedes pasar a recepción y enseguida te atenderemos"/>
+
+        <Button
+            android:id="@+id/btn_entendido"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="20dp"
+            android:text="Entendido"
+            android:textColor="@color/colorSecondaryText"/>
+
+    </LinearLayout>
+
+</FrameLayout>

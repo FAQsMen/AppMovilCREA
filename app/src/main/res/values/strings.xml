@@ -1,0 +1,166 @@
+<resources>
+    <string name="app_name">RegistroVisitantes_01</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="navigation_drawer_open">Abrir Menu desplegable</string>
+    <string name="navigation_drawer_close">Cerrar menu desplegable</string>
+
+    <string name="action_settings">Configuracion</string>
+    <string name="title_activity_login">Iniciar Sesion</string>
+
+    <!-- Strings related to ACESSO-->
+    <string name="prompt_acceso">Acceso</string>
+    <string name="prompt_clave">Clave</string>
+    <string name="agregar_acceso">Agregar Acceso</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="prompt_passwordRepeat">Repite Contraseña</string>
+    <string name="action_sign_in">Ingresar</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="error_invalid_email">dirección de email es incorrecto</string>
+    <string name="error_invalid_password">La contraseña es muy corta</string>
+    <string name="error_incorrect_password">Contraseña incorrecta</string>
+    <string name="error_field_required">Este campo es requerido</string>
+    <string name="action_registro">Registrarse</string>
+    <string name="powered">powered by</string>
+
+    <!-- ENTRADA SALIDA -->
+    <string name="opcionaregistrar">Registraré mi: </string>
+    <string name="content_entrada">Entrada</string>
+    <string name="content_salida">Salida</string>
+    <string name="nombre_entrada">Nombre</string>
+    <string name="empresa_visitante">Empresa</string>
+    <string name="nombre_anfrition">A quien visita</string>
+    <string name="nombre_asunto">Asunto</string>
+
+    <!-- ENTRADA SALIDA -->
+    <string name="content_registrar">Registrar datos</string>
+    <string name="content_borrardatos">Borrar datos</string>
+
+    <!-- SALIDA -->
+    <string name="content_regsalida">Registrar salida</string>
+    <string name="prompt_busqueda">Buscar</string>
+
+
+    <!--MENU ITEMS-->
+    <string name="menu_item_perfil">Mi Perfil</string>
+    <string name="menu_item_dispositivos">Dispositivos</string>
+    <string name="menu_item_localizar">Localizar</string>
+    <string name="menu_item_geoperimetros">Geoperimetro</string>
+    <string name="menu_item_alertas">Alertas</string>
+    <string name="menu_item_salir">Salir</string>
+
+    <string name="menu_item_img_logociatec">CIATEC</string>
+    <!-- FIN MENU-->
+
+    <!--MENU ENCABEZADOS-->
+    <string name="menu_item_Inicio">Inicio</string>
+    <string name="menu_item_Rastreo">Rastreo</string>
+    <string name="menu_item_Avisos">Avisos</string>
+
+    <!--  ACTIVITY PERFIL -->
+    <string name="title_activity_perfil">Editar Perfil</string>
+    <string name="passwordrepeat">Repite Contraseña</string>
+    <string name="BTN_Guardar_perfil">Guardar</string>
+
+    <!--  ACTIVITY EDITAR DISPOSITIVOS -->
+    <string name="title_activity_dispositivos">Editar Dispositivos</string>
+    <string name="nombre">Nombre del dispositivo</string>
+    <string name="ID">ID Dispositivo</string>
+    <string name="BTN_Agregar_dispositivo">Agregar</string>
+
+    <!--  ACTIVITY GEOPERIMETRO -->
+    <string name="title_activity_editar_geoperimetros">Editar Geoperimetros</string>
+    <string name="nombre_geoperimetro">Nombre Geoperimetro</string>
+    <string name="geoperimetro_radio">Radio (metros)</string>
+    <string name="geoperimetro_centro">Centro (coordenadas)</string>
+    <string name="geoperimetro_latitud">Latitud</string>
+    <string name="geoperimetro_longitud">Longitud</string>
+    <string name="guardar_geoperimetro">Guardar</string>
+
+    <string name="actualizar">Actualizar</string>
+
+    <!--  ACTIVITY Alertas -->
+    <string name="title_activity_editar_alerta">Editar Alerta</string>
+    <string name="alerta_dispositivo">Dispositivo</string>
+    <string name="alerta_evento">Evento</string>
+
+
+    <string name="alerta_geoperimetro">Geoperimetro</string>
+    <string name="alerta_Alertar">Avisar en caso de:</string>
+
+    <string name="alerta_NivelBateria">Nivel Bateria</string>
+    <string name="BTN_Guardar_alerta">Guardar</string>
+
+    <!-- Conjunto de Strings para el View GameSpinner -->
+    <string-array name="Dispositivos">
+        <item>DispositivoVerde</item>
+        <item>null</item>
+        <item>3Tres</item>
+        <item>4Cuatro</item>
+        <item>BlancoComercial</item>
+    </string-array>
+
+    <string-array name="Eventos">
+        <item>Geoperimetro</item>
+        <item>Bateria baja</item>
+    </string-array>
+
+    <string-array name="Geoperimetros">
+        <item>Geocerca01</item>
+        <item>Geocerca02</item>
+    </string-array>
+
+    <string-array name="NivelBateria">
+        <item>20</item>
+        <item>15</item>
+        <item>10</item>
+    </string-array>
+
+    <!--  DIALOGOS  -->
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_discard_msg">¿Descartar Cambios?</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="dialog_delete_msg">Se eliminará </string>
+
+    <string name="action_delete">Borrar</string>
+    <string name="action_discard">Descartar</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_done">Guardar</string>
+
+    <!-- FLOATING ACTION BUTTOM -->
+
+    <string name="mapa_normal">Normal</string>
+    <string name="mapa_satelital">Satelital</string>
+    <string name="mapa_terreno">Terreno</string>
+    <string name="localizar">Localizar</string>
+
+    <string name="marker_detail_latlng">(%1$.2f, %2$.2f)</string>
+    <string name="informacion_dispositivo">fecha último registro: 2017-02-22 14:08:45, nivel bateria: , Latitud:21.158  Longitud:-101.644 </string>
+    <string name="action_save">Guardar</string>
+    <string name="action_add">Actualizar ubicacion</string>
+    <string name="action_favorite">Historial de recorrido</string>
+    <string name="nombrealerta">Nombre Alerta</string>
+    <string name="content_calificacion">Agradecemos que puedas calificar nuestra atención</string>
+
+
+    <!-- Categorías -->
+    <string-array name="entradas_categoria">
+        <item>Salud</item>
+        <item>Finanzas</item>
+        <item>Espiritual</item>
+        <item>Profesional</item>
+        <item>Material</item>
+    </string-array>
+
+    <!-- Prioridades -->
+    <string-array name="entradas_prioridad">
+        <item>Alta</item>
+        <item>Media</item>
+        <item>Baja</item>
+    </string-array>
+</resources>
